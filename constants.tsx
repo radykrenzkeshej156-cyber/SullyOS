@@ -104,4 +104,4 @@ export const INSTALLED_APPS: AppConfig[] = [
 export const HIDDEN_APP_NAMES: Partial<Record<AppID, string>> = {
 };
 
-export const DOCK_APPS = [AppID.Chat, AppID.GroupChat, AppID.Social, AppID.Settings];
+export const DOCK_APPS = [AppID.Chat, AppID.Journal, AppID.Social, AppID.Settings];
